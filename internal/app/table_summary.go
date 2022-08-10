@@ -6,15 +6,15 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/c2h5oh/tparse/parse"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/mfridman/tparse/parse"
 	"github.com/olekukonko/tablewriter"
 )
 
 type SummaryTableOptions struct {
 	// For narrow screens, remove common prefix and trim long package names vertically. Example:
-	// github.com/mfridman/tparse/app
-	// github.com/mfridman/tparse/internal/seed-up-down-to-zero
+	// github.com/c2h5oh/tparse/app
+	// github.com/c2h5oh/tparse/internal/seed-up-down-to-zero
 	//
 	// tparse/app
 	// tparse

@@ -1,4 +1,4 @@
-module github.com/mfridman/tparse
+module github.com/c2h5oh/tparse
 
 require github.com/olekukonko/tablewriter v0.0.5
 

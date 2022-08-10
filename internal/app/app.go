@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/mfridman/tparse/parse"
+	"github.com/c2h5oh/tparse/parse"
 )
 
 type Options struct {

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mfridman/tparse/internal/check"
+	"github.com/c2h5oh/tparse/internal/check"
 )
 
 func TestNewEvent(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/c2h5oh/tparse/parse"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/mfridman/tparse/parse"
 )
 
 var (
